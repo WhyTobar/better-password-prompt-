@@ -1,0 +1,10 @@
+var SECRET = "abc123";
+function start(){
+    while (SECRET == true) {
+        var SECRET = prompt("What is the secret password?");
+        if (SECRET  != true){
+            break;
+        }
+    }
+    print("You know the secret password! Welcome. ");
+}
